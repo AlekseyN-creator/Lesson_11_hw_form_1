@@ -1,0 +1,141 @@
+/*@import url("https://fonts.googleapis.com/css?family=Dela+Gothic+One:regular&display=swap");*/
+@import url("https://fonts.googleapis.com/css?family=Lato:100,100italic,300,300italic,regular,italic,700,700italic,900,900italic&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:regular,500,600,700,800,900,italic,500italic,600italic,700italic,800italic,900italic");
+/*Стили обнуления*/
+*,
+::before,
+::after {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: 0;
+}
+/* убираем декорацию у пунктов списка */
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+/* убираем декорацию ссылок 
+при наведении */
+a:hover {
+	text-decoration: none;
+}
+/* обнуляем заголовки */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-style: inherit;
+}
+/* убираем фантомный отступ у картинки */
+img {
+	vertical-align: top;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+body {
+	line-height: 1;
+	color: black;
+	font-family: "Lato", sans-serif;
+}
+button {
+	cursor: pointer;
+	background-color: transparent;
+}
+input,
+button,
+textarea {
+	font-family: inherit;
+}
+/* ========================*/
+.header {
+}
+.header__top {
+}
+.header__container {
+	max-width: 1140px;
+	margin: 0px auto;
+	padding: 0 15px;
+}
+.header__top-inner {
+	position: relative;
+	height: 43px;
+	text-align: center;
+	line-height: 43px;
+	font-size: 16px;
+	font-weight: 700;
+	margin-bottom: 56px;
+	margin-top: 61px;
+}
+.header__menu {
+	margin: 0px auto;
+}
+.header__logo {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	display: inline-block;
+	font-family: "Playfair Display", serif;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 32px;
+	color: #10375c;
+}
+.header__list {
+	/*width: 562px;
+	height: 28px;*/
+	color: #222831;
+}
+.header__list li {
+	display: inline-block;
+	padding: 0px 40px 0px 0px;
+}
+.header__link {
+	width: 79px;
+	height: 28px;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 28px;
+	color: #222831;
+	font-family: Lato;
+}
+.header__auth {
+	display: inline-block;
+	position: absolute;
+	top: 0px;
+	right: 2px;
+	width: 194px;
+	height: 43px;
+	font-size: 0;
+}
+.header__login {
+	padding: 12px 24px;
+	width: 92px;
+	height: 43px;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 19, 2px;
+	color: #ff5722;
+}
+.header__signup {
+	padding: 12px 24px;
+	width: 103px;
+	height: 43px;
+	font-size: 16px;
+	line-height: 19, 2px;
+	box-shadow: 0px 4px 16px rgba(255, 87, 34, 0.32);
+	color: #fff;
+	background-color: #ff5722;
+}
